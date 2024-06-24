@@ -1,4 +1,8 @@
 var btnEmail = document.querySelector('.btnEmail');
+var card1 = document.querySelector('.projeto1');
+var card2 = document.querySelector('.projeto2');
+var card3 = document.querySelector('.projeto3');
+
 
 btnEmail.addEventListener('click', function() {
     if (btnEmail.innerHTML.includes(': davimoroschult0@gmail.com')) {
@@ -7,3 +11,7 @@ btnEmail.addEventListener('click', function() {
     }
 
 });
+
+/*card1.addEventListener('click', function() {
+    
+});*/
